@@ -1,0 +1,139 @@
+.header {
+    margin: 90rpx 0 90rpx 50rpx;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    width: 650rpx;
+    padding-bottom: 74rpx;
+    font-size: 3vw;
+}
+ 
+.header image {
+    width: 200rpx;
+    height: 74rpx;
+    margin-bottom: 50rpx;
+}
+ 
+.content {
+    margin-left: 50rpx;
+    margin-bottom: 90rpx;
+}
+ 
+.content text {
+    display: block;
+    color: #9d9d9d;
+    margin-top: 40rpx;
+}
+ 
+.bottom {
+    border-radius: 80rpx;
+    margin: 70rpx 50rpx;
+    font-size: 35rpx;
+}
+
+.form-info .cell {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 9.15vw;
+    margin-bottom: 3vw;
+    font-size: 3.82vw;
+    color: #fff;
+}
+
+.form-info .cell > text {
+    flex: 1;
+}
+
+.letter-space2 {
+    letter-spacing: 23rpx;
+}
+
+.letter-space3 {
+    letter-spacing: 16rpx;
+}
+
+.form-info .cell input {
+    flex: 0 0 61.68vw;
+    height: 9.15vw;
+    box-sizing: border-box;
+    padding-left: 3vw;
+    border-radius: 2.4vw;
+    background: #fff;
+    font-size: 3.5vw;
+    color: #000;
+}
+
+.form-info .cell .radio-group {
+    flex: 0 0 61.68vw;
+}
+
+.birthday {
+    position: relative;
+    flex: 0 0 61.68vw;
+    line-height: 9.15vw;
+    box-sizing: border-box;
+    padding-left: 3vw;
+    border-radius: 2.4vw;
+    background: #fff;
+    color: #000;
+}
+
+.birthday image {
+    position: absolute;
+    display: inline-block;
+    width: 4.8vw;
+    height: 6.3vw;
+    right: 3vw;
+    top: 1.3vw;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:0 0 61.68vw;
+}
+
+.info-bottom .signup {
+    flex: 0 0 39vw;
+    line-height: 8.97vw;
+    background: #5AB4E8;
+    text-align: center;
+    border-radius: 2.4vw;
+}
+
+.manage {
+    font-size: 2.66vw;
+}
+
+.area-list {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 61.68vw;
+    z-index: 100;
+    transform: translateY(-100%);
+}
+
+.area-item {
+    padding-left: 2vw;
+    border: 1rpx solid #000;
+    line-height: 8vw;
+    background: #ccc;
+    color: #000;
+}
+.clear-area {
+    position: absolute;
+    right: 4vw;
+    top: 2vw;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vw;
+    background: #ccc;
+    border-radius: 50%;
+    font-size: 6vw;
+    color: #000;
+    z-index: 10;
+}

@@ -1,0 +1,90 @@
+/* pages/login/login.wxss */
+.fill {
+    height: .6vw;
+    margin-bottom: 4vw;
+    background: #fff;
+}
+.form-title {
+    margin-bottom: 2vw;
+    font-size: 3.5vw;
+    color: #fff;
+}
+input {
+    height: 9.15vw;
+    padding-left: 2vw;
+    border-radius: 2.4vw;
+    background: #fff;
+    font-size: 3.5vw;
+    color: #000;
+}
+
+.phone {
+     margin-bottom: 4vw;
+}
+
+.code {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.code > input {
+    flex: 0 0 51.3vw;
+}
+
+.code > image {
+    position: absolute;
+    top: 1.8vw;
+    left: 47vw;
+    width: 3.48vw;
+    height: 6vw;
+    z-index: 10;
+}
+
+.code-btn {
+    flex: 0 0 27.6vw;
+    text-align: center;
+    border-radius: 2.4vw;
+    line-height: 9.15vw;
+    background: #FF5A73;
+    font-size: 3.5vw;
+    color: #fff;
+}
+
+.remember {
+    display: inline-block;
+    align-items: center;
+    margin: 4vw 0;
+    color: #fff;
+}
+
+.remember .re-icon{
+    position: relative;
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 3vw;
+}
+
+.remember .re-icon > text{
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+    width: 2vw;
+    height: 2vw;
+    /* transform: translate(-50% -50%); */
+    border-radius: 50%;
+    background: #5AB4E8;
+    z-index: 10;
+}
+
+.login-btn {
+    margin-bottom: 3vw;
+    line-height: 9.15vw;
+    background: #5AB4E8;
+    letter-spacing: 20rpx;
+    font-size: 4.2vw;
+    color: #fff;
+}

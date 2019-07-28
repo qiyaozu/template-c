@@ -1,0 +1,32 @@
+<!--pages/login/login.wxml-->
+<view id='manageIndex' class='container'>
+    <view class='page-content'>
+        <image src='../../image/title.png' class='title-logo'></image>
+
+        <image src='../../image/title1.png' class='page-bottom-logo'></image>
+
+        <view class='form-title'>手机号码登录</view>
+
+        <view class='fill'></view>
+
+        <input placeholder='请输入手机号码' 
+        class='phone' auto-focus bindinput='phoneInput'></input>
+           
+        <view class='code'>
+            <image src='../../image/phone.png'></image>
+            <input placeholder='请输入验证码' bindinput='codeInput'></input>
+            <view class='code-btn' bindtap='getCode'>
+                {{codeText}}
+            </view>
+        </view>
+
+        <view class='remember' bindtap='chooseRemember'>
+            <view class='re-icon'>
+                <text wx:if='{{remember}}'></text>
+            </view>
+            <text>自动登录</text>
+        </view>
+
+        <button class='login-btn' bindtap='login'>登录</button>
+    </view>
+</view>
